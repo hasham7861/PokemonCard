@@ -1,6 +1,6 @@
 import { StyleSheet, SafeAreaView, Platform } from "react-native";
 
-import PokemonCard from "./components/PokemonCard";
+import PokemonCard from "./components/PokemonCard"
 
 export default function App() {
   return (
