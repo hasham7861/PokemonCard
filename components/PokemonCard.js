@@ -25,6 +25,6 @@ const styles = StyleSheet.create({
       android: {
         elevation: 5,
       },
-    })
-  }
-})
+    }),
+  },
+});
