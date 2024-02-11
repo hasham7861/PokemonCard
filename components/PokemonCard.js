@@ -24,7 +24,7 @@ export default function PokemonCard({
         <Text>{type}</Text>
       </View>
       <View>
-        <Text> Moves: {moves.join(", ")}</Text>
+        <Text>Moves: {moves.join(", ")}</Text>
       </View>
       <View>
         <Text>Weaknesses: {weaknesses.join(", ")}</Text>
