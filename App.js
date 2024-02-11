@@ -2,10 +2,19 @@ import { StyleSheet, SafeAreaView, Platform } from "react-native";
 
 import PokemonCard from "./components/PokemonCard";
 
+const charmanderData = {
+  name: "Charmander",
+  image: require("./assets/charmander.png"),
+  type: "Fire",
+  hp: 39,
+  moves: ["Scratch", "Ember", "Growl", "Leet"],
+  weaknesses: ["Water", "Rock"],
+};
+
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <PokemonCard />
+      <PokemonCard {...charmanderData} />
     </SafeAreaView>
   );
 }
